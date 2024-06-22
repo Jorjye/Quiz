@@ -168,11 +168,20 @@ h2 {
 button{
 
   position: relative;
-  margin: 45px;
+  margin: 60px;
   padding: 5px;
   border-radius: 5px;
-  background-color:  #254222;
-  color:  #99cc66;
+  background-color: #254222;
+  color: #cae4c5;
+  transition: 0.5s;
+
+}
+
+button:hover{
+
+  scale: 1.2;
+  background-color: rgb(32, 51, 30);
+  color: #9dbd97;
 
 }
 
