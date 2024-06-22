@@ -29,7 +29,7 @@ h2 {
 }
   
   .pergunta {
-    height: 280px;
+    height: 310px;
     width: 32%;
     perspective: 1000px;
     border-radius: 5px;
@@ -81,7 +81,19 @@ h2 {
 
   }
 
-  p{
+  .text-p{
+
+    font-size: 17px;
+
+  }
+
+  .text-g{
+
+    font-size: 13px;
+
+  }
+
+  .text{
 
     font-size: 15px;
 
@@ -150,7 +162,18 @@ h2 {
  width: 8px;
  height: 8px;
  border-radius: 50%;
- background: rgb(0, 0, 0);
+ background: rgb(255, 255, 255);
+}
+
+button{
+
+  position: relative;
+  margin: 45px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color:  #254222;
+  color:  #99cc66;
+
 }
 
 
