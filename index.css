@@ -1,0 +1,55 @@
+html{
+
+    height: 100%;
+    background-image: url('img-fundo.png');
+    text-align: center;
+    font-family: Optima, sans-serif;
+
+}
+
+h1{
+    font-size: 62px;
+    color: #edf1ec;
+
+}
+
+h3 {
+    color: #edf1ec;
+}
+
+.caixona {
+    width: 99vw;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.caixa {
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px  30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255,255,255, 0.18);
+    width: 60%;
+    height: 50%;
+    
+}
+
+a {
+    padding: 8px 20px;
+    width: 150px;
+    height: 60px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 25px;
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.075);
+    font-size: 25px;
+}
+
+a:hover {
+    background: rgba(255, 255, 255, 0.226);
+    box-shadow: 0 0 20px 5px #14a501;
+}
